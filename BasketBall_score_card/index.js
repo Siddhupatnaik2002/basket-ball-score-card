@@ -72,4 +72,12 @@ function highScore(){
         guestScore.style.textShadow = " 0 0 3px black";
         guestScore.style.backgroundColor = "#E3B505";
     }
+
+    else {
+        guestScore.style.textShadow = " 0 0 0 ";
+        guestScore.style.backgroundColor = "#080001";
+
+        homeScore.style.textShadow = " 0 0 0 ";
+        homeScore.style.backgroundColor = "#080001";
+    }
 }
